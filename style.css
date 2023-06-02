@@ -1,0 +1,50 @@
+body {
+    background-color:rgb(125, 216, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-block{
+    background-color: rgb(105, 233, 186);
+    width: 500px;
+    height: 500px;
+    margin: 250px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.parent-block-form{
+    margin-top: 20px;
+    
+}
+ 
+hr{height: 3px;
+    background-color: rgb(77, 139, 108);}
+
+.parent-block-form input {
+     height: 40px;
+     width: 400px;
+     border: none; 
+     outline: none;
+    }
+.parent-block-form-input-button{
+    background-color:rgb(68, 181, 136);
+    border: none;
+    height: 40px;
+    width: 90px;
+}
+
+.parent-block-child-tasks{
+  
+    width: 100%;
+
+    
+}
+
+#list{
+    list-style: none;
+}
+
